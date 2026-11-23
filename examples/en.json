@@ -1,0 +1,11 @@
+{
+  "app": {
+    "title": "Task Tracker",
+    "welcome": "Hello, {username}!"
+  },
+  "actions": {
+    "save": "Save changes",
+    "delete": "Delete item",
+    "items_count": "You have {count} tasks"
+  }
+}
