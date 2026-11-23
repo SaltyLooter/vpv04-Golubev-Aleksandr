@@ -13,6 +13,8 @@
 
 ## Установка и запуск
 
+### macOS / Linux
+
 1. Клонируйте репозиторий и перейдите в папку проекта:
    `git clone https://github.com/SaltyLooter/vpv04-Golubev-Aleksandr.git && cd vpv04-Golubev-Aleksandr`
 2. Создайте и активируйте виртуальное окружение:
@@ -21,6 +23,17 @@
    `pip install -r requirements.txt`
 4. Запустите проверку локализации:
    `python3 src/locale_auditor.py --base examples/en.json --target examples/ru.json`
+
+### Windows (PowerShell / CMD)
+
+1. Клонируйте репозиторий и перейдите в папку проекта:
+   `git clone https://github.com/SaltyLooter/vpv04-Golubev-Aleksandr.git` и `cd vpv04-Golubev-Aleksandr`
+2. Создайте и активируйте виртуальное окружение:
+   `python -m venv venv` и затем `.\venv\Scripts\Activate.ps1` (в PowerShell) или `venv\Scripts\activate.bat` (в CMD)
+3. Установите зависимости:
+   `pip install -r requirements.txt`
+4. Запустите проверку локализации:
+   `python src\locale_auditor.py --base examples\en.json --target examples\ru.json`
 
 ## Ожидаемый результат проверки
 
